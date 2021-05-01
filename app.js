@@ -5,7 +5,7 @@ const app = express()
 const mainRoutes = require("./src/routes/mainRoutes")
 
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("servidor corriendo en puerto 3000")
 })
 
