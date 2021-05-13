@@ -21,8 +21,8 @@ app.use("/",mainRoutes)
 
 
 
-app.use((req,res,next) => {
-    res.status(404).render("Error404/not-found")
-})
+//app.use((req,res,next) => {
+//    res.status(404).render("Error404/not-found")
+//})
 
 
