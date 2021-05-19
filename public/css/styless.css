@@ -13,16 +13,16 @@ body{
 .animado{
     opacity: 0;
     transition: all 0.7s;
-    animation:mostrar 1s;
+    animation: mostrar 1s;
 }
 .animadoHeader{
     opacity: 0;
     transition: all 0.7s;
-    animation:mostrar 1s;
+    animation: mostrar 1s;
 }
 @keyframes mostrar {
-     0%{transform:translateX(60px)}
-    100%{transform:translateX(0)} 
+     0% {transform:translateX(-60px)}
+    100% {transform:translateX(0)} 
  }
 /*header y foto perfil*/
 
