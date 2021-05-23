@@ -12,18 +12,22 @@ body{
 
 .animado{
     opacity: 0;
-    transition: all 0.7s;
-    animation: mostrar 1s;
+    transition: all 1s;
+    
 }
 .animadoHeader{
     opacity: 0;
-    transition: all 0.7s;
-    animation: mostrar 1s;
+    transition: all 2s;
 }
-@keyframes mostrar {
-     0% {transform:translateX(-60px)}
-    100% {transform:translateX(0)} 
+ .animadoHeaderIzquierda{
+    opacity: 0;
+    transition: all 2s;
+    animation: mostrar 3s; 
  }
+@keyframes mostrar {
+    0% {transform:translateX(-200vw)}
+   100% {transform:translateX(0)} 
+}
 /*header y foto perfil*/
 
 header{
