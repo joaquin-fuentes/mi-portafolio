@@ -413,13 +413,12 @@ background-position: center center;
 .enlaces-menu{  
     width: 100vw;
     flex-direction: column;
-    justify-content: center;
+    justify-content:end;
     text-align: center;
-    align-items: center;
-    height: 50vh;
+    align-items:center;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
-
-    padding-top: 9vh;
+    padding-top:55vh ;
     display: none;
 }
 .enlaces-menu li{
@@ -462,6 +461,11 @@ background-position: center center;
 }
 .foto-perfil, .nombre{
     width: 90%;
+}
+.contenedor-foto-perfil{
+    width: 60%;
+    height: 50%;
+
 }
 .contenedor-nombre{
    padding-bottom: 30%;
