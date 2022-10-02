@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: rgb(29, 28, 28);
     color: rgb(210, 210, 210);
+   
 }
+
 .img-grande{
 height: 350px;
 width: 350px;
@@ -253,15 +256,15 @@ i{
     padding: 10px;
   }
   .img-grande{
-    height: 150px;
-    width: 150px;
+    height: 1900px;
+    width: 190px;
     margin-bottom: 20px;
   }
   .titulo-portada{
-    font-size: 25px;
+    font-size: 30px;
 
   }
   .subtitulo-portada{
-    font-size: 15px;
+    font-size: 20px;
   }
 }
