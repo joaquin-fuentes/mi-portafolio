@@ -203,11 +203,27 @@ i{
 
 /* MEDIAS PARA PANTALLAS MAS PEQUEÑAS */
 @media (max-width: 768px){
+    .portada{
+        padding: 20px;
+    }
     .img-grande{
         height: 200px;
         width: 200px;
 
         }   
+        .portada{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .titulo-portada{
+            font-size: 35px;
+        
+          }
+          .subtitulo-portada{
+            font-size: 25px;
+          }
         .proyectos{
             width: 100%;
             height: 100%;
@@ -228,4 +244,24 @@ i{
         .boton-github{
             margin-top: 30px;
         }
+}
+
+/* MEDIAS PARA PANTALLAS MAS PEQUEÑAS */
+@media (max-width: 468px){
+
+  .portada{
+    padding: 10px;
+  }
+  .img-grande{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .titulo-portada{
+    font-size: 25px;
+
+  }
+  .subtitulo-portada{
+    font-size: 15px;
+  }
 }
