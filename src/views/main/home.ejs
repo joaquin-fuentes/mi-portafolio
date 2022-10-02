@@ -1,218 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/styless.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.google.com/">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="icon" href="../../../img/favicon3.ico">
-    
-    <title>Joaquín Fuentes</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio con Bootstrap</title>
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../../css/styless.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/ef6e8880b7.js" crossorigin="anonymous"></script>
+  <link rel="icon"href="./img/favicon3.ico"/>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> -->
 </head>
+
 <body>
-<header class="animadoHeader" id="inicio">
-    <div class="header-superior animadoFijo">
-        <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">¡Bienvenido!</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
-              <a class="nav-link" href="#experiencia">Experiencia</a>
-              <a class="nav-link" href="#conocimientos">Conocimientos</a>
-              <a class="nav-link" href="#contacto">Contacto</a>
-              <a class="nav-link" href="#educacion">Educacion</a>
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </div>
+  <!-- NAVBAR -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">¡Bienvenido!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#sobremi">Sobre mí</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+          <a class="nav-link" href="#conocimientos">Conocimientos</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
+          <a class="nav-link" href="#educacion">Educacion</a>
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="./bootstrap.min.js"></script>
+  <!-- IMAGEN DE PERFIL -->
+  <div class="container-content portada " >
+    <div class="row row-portada">
+      <div class="col-md-6 m-auto col-centrada">
+        <img data-aos="fade-right" class="img-fluid img-grande " src="../../../img/20210426_1313411.jpg" alt="img-perfil">
+      </div>
+      <div class="col-md-6 m-auto col-centrada ">
+        <h1 data-aos="fade-right" class="titulo-portada">Joaquín Fuentes</h1>
+        <h4 data-aos="fade-right" class="subtitulo-portada">Desarrollador Web Full Stack</h4>
+      </div>
+    </div>
+  </div>
+  <!-- SOBRE MÍ - EXPERIENCIA -->
+  <section data-aos="fade-up" class="  row  sobremi-experiencia">
+    <div id="sobremi"  data-aos="fade-up" class="  col-md-6 container-sobreMi">
+      <h3>Sobre mí</h3>
+      <h4>¿Quién soy?</h4>
+      <h5>Hola! Mi nombre es Joaquin Fuentes! Tengo 28 años. Me considero un Joven apasionado de la tecnología y el
+        desarrollo web</h5>
+      <h6>Me gusta aprender nuevas tecnologías, solucionar problemas y adaptarme a nuevos conocimientos o lenguajes</h6>
+      <a data-aos="fade-up" class="  btn btn-warning" target="_blank" href="./img/Joaquin Fuentes - CV.pdf">Ver CV</a>
+    </div>
+    <div id="experiencia" data-aos="fade-up" class="  col-md-6 container-experiencia">
+      <h3>Trabajo</h3>
+      <h5>Me encuentro en búsqueda de formar parte de una empresa del sector IT, mientras tanto continuo capacitándome y
+        desarrollando nuevas habilidades. Actualmente estoy cursando la carrera de Tecnicatura Superior en Programación,
+        estoy ampliando mis conocimientos y creando nuevos proyectos.</h5>
+    </div>
+  </section>
+  <!-- CONOCIMIENTOS -->
+  <section data-aos="fade-up" class="  row conocimientos">
+    <div id="conocimientos" data-aos="fade-up" class="  col-md-12 container-conocimientos">
+      <h3>Conocimientos</h3>
+      <div data-aos="fade-up" class="  row container-article-conocimientos">
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-html5"></i> HTML</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-css3"></i> CSS</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-js-square"></i> Javascript</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fa-brands fa-bootstrap"></i> Bootstrap</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-node"></i> NodeJs</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-node-js"></i> Express Js</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-react"></i> React</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fas fa-database"></i>MySQL</article>
+        <article data-aos="fade-up" class="   col-md-3 col-sm-5 col-4 tarjeta-conocimiento"><i data-aos="fade-up" class="  fab fa-github"></i> GITHUB</article>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACTO - EDUCACION -->
+
+  <section data-aos="fade-up" class="  row  contacto-educacion">
+    <div id="contacto" data-aos="fade-up" class="  col-md-6 container-contacto">
+      <h3>Contacto</h3>
+      <div data-aos="fade-up" class="  linea-contacto">
+        <i data-aos="fade-up" class="  fab fa-whatsapp"> 381-6097754</i>
+      </div>
+      <div data-aos="fade-up" class="  linea-contacto">
+        <i data-aos="fade-up" class="  fas fa-envelope"> joaquin.fuentes1327@gmail.com</i>
+      </div>
+      <div data-aos="fade-up" class="  linea-contacto">
+        <a href="https://www.linkedin.com/in/joaqu%C3%ADn-fuentes-391b47207/"><i data-aos="fade-up" class="  fab fa-linkedin"> Perfil de
+            linkedin</i></a>
+      </div>
+      <div data-aos="fade-up" class="  linea-contacto">
+        <a href=">https://github.com/joaquin-fuentes"><i data-aos="fade-up" class="  fab fa-github"> Perfil de Github</i></a>
+      </div>
+    </div>
+    <div id="educacion" data-aos="fade-up" class="  col-md-6 container-educacion">
+      <h3>Educacion</h3>
+      <div data-aos="fade-up" class="  linea-estudio">
+        <h4>Universidad Tecnologica Nacional - FRT</h4>
+        <h6>Tecnicatura Universitaria en Programacion (Cursando)</h6>
+      </div>
+      <div data-aos="fade-up" class="  linea-estudio">
+        <h4>Digital House</h4>
+        <h6>Curso de Desarrollo Web FullStack</h6>
+      </div>
+      <div data-aos="fade-up" class="  linea-estudio">
+        <h4>Platzi</h4>
+        <h6>Curso de Desarrollo Web Front-End</h6>
+      </div>
+      <div data-aos="fade-up" class="  linea-estudio">
+        <h4>Udemy</h4>
+        <h6>Curso de SQL desde Cero</h6>
+        <h6>Curso de Node JS</h6>
+        <h6>Curso de REACT</h6>
+      </div>
+      <div data-aos="fade-up" class="  linea-estudio">
+        <h4>Educacion IT</h4>
+        <h6>Curso Introduccion al lenguaje de programación</h6>
+      </div>
+    </div>
+  </section>
+  <!-- PROYECTOS -->
+  <section data-aos="fade-up" class="  row proyectos">
+    <div id="proyectos" data-aos="fade-up" class="  col-md-12 container-proyectos">
+      <h3>Proyectos</h3>
+      <div data-aos="fade-up" class="  row container-article-proyectos">
+        <article data-aos="fade-up" class="   tarjeta-proyecto">
+          <img data-aos="fade-up" class="  img-fluid"  src="./img/tkc-portada.png" alt="">
+          <div  class="  hover-proyecto">
+            <h2>Tucuman Kayak Club</h2>
+            <h4>Tucuman Kayak Club es una empresa que se dedica a prestar servicios de Turismo Aventura en la zona del
+              Cadillal - Tucuman - Argentina</h4>
+            <h6>(Falta terminar)</h6>
+            <a href="https://tkc21.herokuapp.com/">Ver Sitio Web</a>
           </div>
-        </div>
-      </nav>
-   </div>
-   <div class="fondo-header">
-       <div class="foto-perfil animadoHeaderIzquierda">
-           <div class="contenedor-foto-perfil">
-               <img src="../../../img/fotoperfil.jpg" alt="foto de perfil">
-           </div>
-       </div>
-       <div class="nombre animadoHeaderIzquierda">
-           <div class="contenedor-nombre">
-               <h1>Joaquín Fuentes</h1>
-               <h2>Full Stack Developer</h2>
-           </div>
-       </div>
-   </div>
-</header>
-<!-- <main>
-       <div class="foto-perfil animadoHeaderIzquierda">
-           <div class="contenedor-foto-perfil">
-               <img src="../../../img/fotoperfil.jpg" alt="foto de perfil">
-           </div>
-       </div>
-       <div class="nombre animadoHeaderIzquierda">
-           <div class="contenedor-nombre">
-               <h1>Joaquin Fuentes</h1>
-               <h2>Front End Developer</h2>
-           </div>
-       </div>
-</main> -->
-<section class="sobremi-experiencia">
-    <article class="sobre-mi animado">
-        <div class="contenedor-sobre-mi">
-            <h2 class="titulo" id="sobre-mi">Sobre mí</h2>
-            <h3 class="sub-titulo">¿Quién soy?</h3>
-            <h4 class="sub-sub-titulo">Hola! Mi nombre es Joaquin Fuentes! Tengo 28 años. Me considero un Joven apasionado de la tecnología y el desarrollo web</h4>
-            <h5 class="desarrollo">Me gusta aprender nuevas tecnologías, solucionar problemas y adaptarme a nuevos conocimientos o lenguajes</h5>
-            <a href="../../../pdf/Joaquin Fuentes - CV.pdf" target="_blank">Ver CV</a>
-        </div>
-    </article>
-    <article class="experiencia animado">
-        <div class="contenedor-sobre-mi">
-            <h2 class="titulo" id="experiencia">Experiencia</h2>
-            <h3 class="sub-titulo">Trabajo</h3>
-            <h4 class="sub-sub-titulo">Me encuentro en búsqueda de formar parte de una empresa del sector IT, mientras tanto continuo capacitándome y desarrollando nuevas habilidades. Actualmente estoy cursando la carrera de Tecnicatura Superior en Programación, estoy ampliando mis conocimientos y creando nuevos proyectos.</h4>
-        </div>
-    </article>  
-</section>
-<section class="conocimientos">
-    <h2 class="titulo animado" id="conocimientos">Conocimientos</h2>
-    <div class="contenedor-conocimientos">
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-html5"></i>
-                <h4>HTML</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-css3"></i>
-                <h4>CSS</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-js-square"></i>
-                <h4>Javascript</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-github"></i>
-                <h4>GITHUB</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-node"></i>
-                <h4>Node JS</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-node-js"></i>
-                <h4>Express JS</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fab fa-react"></i>
-                <h4>React</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento animado">
-            <div class="tarjeta-conocimientos">
-                <i class="fas fa-database"></i>     
-                <h4>MySQL</h4>
-             </div>
-        </div>
-    </div>
-</section>
-<!-- 
-<section class="conocimientos-basicos">
-    <h2 class="titulo">Conocimientos Básicos</h2>
-    <div class="contenedor-conocimientos-basicos">
-        <div class="contenedor-tarjeta-conocimiento-basicos">
-            <div class="tarjeta-conocimientos-basicos">
-                <i class="fab fa-php"></i>
-                <h4>PHP</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento-basicos">
-            <div class="tarjeta-conocimientos-basicos">
-                <i class="fas fa-database"></i>
-                <h4>MySQL</h4>
-             </div>
-        </div>
-        <div class="contenedor-tarjeta-conocimiento-basicos">
-            <div class="tarjeta-conocimientos-basicos">
-                <i>icono</i>
-                <h4>jQuery</h4>
-             </div>
-        </div>
-    </div>
-</section>
--->
-
-<section class="contacto-educacion">
-    <article class="contacto animado">
-        <div class="contenedor-contacto">
-            <h2 class="titulo" id="contacto">Contacto</h2>
-            <div class="iconos">
-                <i class="fab fa-whatsapp"> 381-6097754</i>
-                <i class="fas fa-envelope"> joaquin.fuentes1327@gmail.com</i>
-                <a href="https://www.linkedin.com/in/joaqu%C3%ADn-fuentes-391b47207/"><i class="fab fa-linkedin"> Perfil de linkedin</i></a>
-                <a href=">https://github.com/joaquin-fuentes"><i class="fab fa-github"> Perfil de Github</i></a>  
-            </div>
-<!--             <h4 class="desarrollo">Me encuentro en búsqueda de trabajar en alguna empresa, como junior o como pasante en prueba. Tengo ganas de aprender y ganar experiencia.</h4>
- -->        </div>
-    </article>
-    <article class="educacion animado">
-        <div class="contenedor-educacion">
-            <h2 class="titulo" id="educacion">Educación</h2>
-            <h3>Universidad Tecnologica Nacional - FRT <h4>Tecnicatura Superior en Programación (Cursando)</h4> </h3>
-            <h3>Digital House <h4>Desarrollo Web Full Stack</h4> </h3>
-            <h3>Platzi <h4>Desarrollo web front-end</h4></h3>
-            <h3>Udemy<h4>Curso de SQL desde cero</h4><h4>Curso de NODE JS</h4><h4>Curso de REACT</h4></h3>
-            <h3>Educacion IT<h4>Curso Introducción al lenguaje de programación</h4></h3>
-         </div>
-    </article>  
-</section>
-<section class="proyectos">
-    <h2 class="titulo animado" id="proyectos">Proyectos</h2>
-    <div class="contenedor-proyectos animado">
-        <article class="tarjeta-proyecto animado">
-            <img src="../../../img/moda-sport-portada.png" alt="">
-            <div class="hover-proyecto">
-                <h2>Moda-Sport</h2>
-                <h4>Es una pagina que cree para un negocio de venta de ropa deportiva</h4><h6>(Falta terminar)</h6>
-                <a href="https://modasport.herokuapp.com/">Ver Sitio Web </a>
-            </div>
         </article>
-        <article class="tarjeta-proyecto animado">
-            <img src="../../../img/tkc-portada.png" alt="">
-            <div class="hover-proyecto">
-                <h2>Tucuman Kayak Club</h2>
-                <h4>Tucuman Kayak Club es una empresa que se dedica a prestar servicios de Turismo Aventura en la zona del Cadillal - Tucuman - Argentina</h4><h6>(Falta terminar)</h6>
-                <a href="https://tkc21.herokuapp.com/">Ver Sitio Web</a>
-            </div>
+        <article data-aos="fade-up" class="   tarjeta-proyecto"><img  data-aos="fade-up" class="  img-fluid" src="./img/moda-sport-portada.png" alt="">
+          <div  class="  hover-proyecto">
+            <h2>Moda-Sport</h2>
+            <h4>Es una pagina que cree para un negocio de venta de ropa deportiva</h4>
+            <h6>(Falta terminar)</h6>
+            <a href="https://modasport.herokuapp.com/">Ver Sitio Web </a>
+          </div>
         </article>
+      </div>
+      <a data-aos="fade-up" class=" boton-github btn btn-warning" target="_blank" href="https://github.com/joaquin-fuentes/" style="margin-bottom:100px;">GITHUB</a>
     </div>
-    <div class="contenedor-enlace animadoHeader">
-        <a href="https://github.com/joaquin-fuentes">GITHUB</a>
-    </div>
-</section>
-<script src="../../../js/scroll.js"></script>
-<script src="../../../js/menu-hamburguesa.js"></script>
-<script src="../../../js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-
+  </section>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
